@@ -1,0 +1,91 @@
+body{
+    background: url('../imagens/background.jpg');
+    color: #4d4b4b;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.125em; 
+    font-weight: 300;
+    line-height: 1.2222222222em;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+   
+}
+
+.titulo{
+    text-align:center;
+    width: 100%; 
+}
+
+h1{
+    color:#FE9380;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: -3px;
+    line-height: 60px;
+}
+
+h4{
+    margin-top: 1%;
+}
+
+.center{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.container{
+    background-color:#FE9481;
+    height: auto;
+    padding: 1.5%;
+    width: 95%;
+    
+}
+
+.box-geral{
+    float: top;
+    background-color: #FCDA92;
+    padding-top: 0.5%;
+    padding-block-end: 2%;
+    position: relative;
+    text-align: center;
+    width: auto;
+}
+
+button{
+    margin-bottom: 1%;
+}
+
+.formulario p{
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    margin: 3px;
+}
+
+#mensagem-adicionar{
+    font-size: 15px;
+}
+
+#resultado-busca{
+    font-size: 15px;
+}
+
+table{
+    margin: auto auto 2% auto; 
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    overflow:auto;
+}
+
+td, th {
+    border: 1px solid #360303b7;
+    text-align: center;
+    padding: 2px;
+}
+
+tr:nth-child(even) {
+    background-color: #ecad76ad;
+}
+
+tr:nth-child(odd) {
+    background-color: #e2cab7;
+}

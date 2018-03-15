@@ -1,0 +1,44 @@
+Adicionar um livro
+
+POST request em "http://localhost/editora-api/public/index.php/api/livro/adicionar"
+
+Exemplo:
+{
+"titulo": "O livro das maravilhas",
+"autor": "Guilherme Almeida",
+"editora": "Hogwarts Express",
+"preco": 23.90,
+"paginas": 285
+}
+
+---------
+
+Carregar todos os livros
+GET request em "http://localhost/editora-api/public/index.php/api/livros"
+Type: JSON
+
+Exemplo de resposta:
+{
+"id": 5,
+"titulo": "O livro das maravilhas",
+"autor": "Guilherme Almeida",
+"editora": "Hogwarts Express",
+"preco": 23.90,
+"paginas": 285
+}
+
+--------
+
+Buscar um livro pelo título
+GET request em "http://localhost/editora-api/public/index.php/api/livro/{titulo}"
+Type: JSON
+
+Exemplo de resposta:
+{
+"id": 5,
+"titulo": "O livro das maravilhas",
+"autor": "Guilherme Almeida",
+"editora": "Hogwarts Express",
+"preco": 23.90,
+"paginas": 285
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">   
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/estilos.css" />
+    <title>Editora Fictícia</title>
+</head>
+<body class="center">
+
+    <section class="titulo">
+        <h1>Editora Fictícia</h1>
+    </section>
+
+    <section class="container">
+    <div class="box-geral">
+        <h4>Consultar Livro</h4>
+        <p>Título: <input type="text" id="titulo">
+        <button id="pesquisar-livro">Pesquisar</button></p>
+        <center><table id="resultado-busca">
+        </table></center>
+    </div>
+
+    <div class="box-geral">
+        
+        <h4>Adicionar Livro</h4>
+        <div class="formulario">
+            <p>Título:  <input type="text" id="titulo-novo" size=30></p>
+            <p>Autor:  <input type="text" id="autor" size=20></p>
+            <p>Editora: <input type="text" id="editora" size=20></p>
+            <p>Preço (R$):  <input type="number" id="preco" ></p>
+            <p>Qtd. Páginas:  <input type="number" id="paginas"></p>
+        </div>
+        <button id="adicionar-livro">Adicionar</button>
+        <div id="mensagem-adicionar"></div>  
+    </div>
+
+    </section>
+    <script src="jquery/jquery-3.3.1.js"></script>
+    <script src="javascript/main.js"></script>
+
+
+</body>
+</html>
